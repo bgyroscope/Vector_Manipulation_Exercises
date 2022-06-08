@@ -7,8 +7,8 @@ Automate creating vector homework problems for students. In this repository, the
 As described in main.py 
 
 Unit 00 Prequisits 
-    * Topic 01 Similify Expressions
-        **Type 01 multiply by reciprocal 
+* Topic 01 Similify Expressions
+**Type 01 multiply by reciprocal 
     *Topic 02 Solve 1D Equations 
         **Type 01 cross multiply 
         **Type 02 Linear Equation
