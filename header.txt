@@ -1,0 +1,51 @@
+\documentclass[letterpaper, 11pt]{article}
+% load packages
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[margin=0.5in]{geometry} 
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{physics}
+\usepackage{comment}
+%outline packages
+\usepackage{outlines}
+\usepackage{enumitem}
+\usepackage{setspace}
+
+% set up the outline stuff-----------------
+\newcommand{\ItemSpace}{0pt}
+\newcommand{\ParSpace}{-0pt}
+%\setlist[enumerate]{itemsep=0pt}
+\setenumerate[1]{itemsep={\ItemSpace},parsep={\ParSpace},label=\textbf{\large \Roman*.}}
+\setenumerate[2]{itemsep={\ItemSpace},parsep={\ParSpace},label=\textbf{\Alph*.} }
+\setenumerate[3]{itemsep={\ItemSpace},parsep={\ParSpace},label=\roman*.}
+\setenumerate[4]{itemsep={\ItemSpace},parsep={\ParSpace},label=\alph*.}
+%define the style of outline  ----------
+\newcommand{\lb}[1]{\textbf{ \large #1 } }
+%end definitions of outline ------------
+
+% pictures. 
+\usepackage{tikz} 
+\usepackage{circuitikz}
+\usetikzlibrary{calc}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.12} % for filldraw points..
+
+% use multi column
+\usepackage{multicol} 
+
+% rewrite definitions
+\renewcommand{\Re}{\rm{Re}}
+\renewcommand{\Im}{\rm{Im}}
+\renewcommand{\imath}{\rm{i}}
+\renewcommand{\rm}{\mathrm}
+\renewcommand{\le}{\left<}
+%new commands
+\newcommand{\ri}{\right>}
+\newcommand{\euler}{\rm{e}}
+%for expect and correlated parts 
+\newcommand{\cor}[1]{\Delta \left< #1 \right> }
+\newcommand{\expect}[1] {\left< #1 \right> } 
