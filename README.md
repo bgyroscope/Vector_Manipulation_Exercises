@@ -25,3 +25,5 @@ Unit 01: Kinematics
 '''
 
 These list the types of problems that can be produced. To specify which problems to create, modify the inputStringList in main.py. It is a list of input strings that specify the number of problems (use leading zeros), the unit, the topic, and finally the type. For example, '05U01_T02_T01' would correspond to 5 problems of Unit 01 Topic 02 type 01, corresponding to 5 problems of two vector sums. The output will be placed in a folder called temp. So create that. Then compile the latex code for a document that has all the problems with answers. 
+
+An example output is called temp.pdf that shows two examples of each type of problems.
