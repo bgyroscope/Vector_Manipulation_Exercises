@@ -1,4 +1,4 @@
-# Vector_Manipulation_Homework
+# Vector_Manipulation_Exercises
 Create Vector Homework Problems for Students
 
 
